@@ -1,4 +1,10 @@
-<?php 
-    echo "<p>Tomorrow I 'll learn PHP global variables.</p>";
-    echo "<span>This is a bad command: sudo rm -rf /</span>";
+<?php
+for($row=1;$row<=8;$row++)
+{
+   for ($star=1;$star<=$row;$star++)
+    {
+     echo "*";
+     }
+ echo "<br>";
+}
 ?>
